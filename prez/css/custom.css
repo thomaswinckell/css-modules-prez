@@ -1,0 +1,17 @@
+.logos-container {
+    display: flex;
+}
+
+.webpack-logo {
+    width: 400px;
+    height: 272px;
+    border: none;
+    margin-top: 80px;
+}
+
+.css-modules-logo {
+    border: none;
+    width: 400px;
+    margin-left: 3rem;
+    height: 400px;
+}
