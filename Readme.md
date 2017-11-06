@@ -7,8 +7,8 @@ Open the index.html on your favorite browser or launch an http-server on the roo
 
 TODO
 - redesign first : CSS + Webpack = CSS modules
-- find pro/cons icons
 - design prez
+- bold on important keywords
 - review
 
 

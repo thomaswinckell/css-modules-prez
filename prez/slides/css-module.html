@@ -13,21 +13,22 @@
         <li>Apply css-loader to convert it to a js module</li>
         <li>Rename all the classes using a configurable pattern</li>
         <li>Export all the classes as a JSON object</li>
-        <li>TODO : example</li>
-        <style>
-            .root { ... }
-            .list { ... }
-            .item { ... }
-        </style>
-        Pattern: '[path][name]__[local]--[hash:base64:5]'
-        <script>
-            {
-                root : 'src-TodoList__root--3cZQE',
-                list : 'src-TodoList__list--3NnME',
-                item : 'src-TodoList__item--9xRKZ',
-            }
-        </script>
     </ul>
+</section>
+<section>
+<ul>
+    <li>Pattern: '[path][name]__[local]--[hash:base64:5]'</li>
+    <li>File path : src/TodoList</li>
+</ul>
+<pre><code class="language-css">
+.root { ... }
+.list { ... }
+.item { ... }</code></pre>
+<pre><code class="language-js">{
+    root : 'src-TodoList__root--3cZQE',
+    list : 'src-TodoList__list--3NnME',
+    item : 'src-TodoList__item--9xRKZ',
+}</code></pre>
 </section>
 <section>
     <h3>Webpack configuration</h3>
