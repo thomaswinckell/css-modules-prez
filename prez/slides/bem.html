@@ -1,10 +1,52 @@
 <section>
     <h3>BEM</h3>
     <ul>
+        <li>Naming convention</li>
         <li>Suffix with __class-name for a child class name</li>
         <li>Suffix with --modifier-name for a modifier</li>
-        <li>TODO : example</li>
     </ul>
+</section>
+<section>
+<pre><code class="language-css">/****** Button ******/
+
+.button {
+    display: inline-block;
+    padding: 7px 12px;
+    color: #333;
+    font: 700 13px/18px Helvetica, arial;
+}
+
+/* Button with 'success' modifier */
+.button--success {
+    color: #4A993E;
+}
+
+/* Button with 'danger' modifier */
+.button--danger {
+    color: #900;
+}</code></pre>
+</section>
+<section>
+<pre><code class="language-css">/****** Video player ******/
+
+.video-player {
+    display: flex;
+}
+
+.video-player__list {
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+}
+
+.video-player__list__item {
+    flex: 1;
+}
+
+.video-player__list__item__duration {
+    width: 2rem;
+    height: auto;
+}</code></pre>
 </section>
 <section>
     <h3>BEM</h3>

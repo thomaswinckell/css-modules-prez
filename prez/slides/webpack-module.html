@@ -3,6 +3,20 @@
     <ul>
         <li>Can import / export</li>
         <li>Local scope</li>
-        <li>TODO : example</li>
     </ul>
+</section>
+<section>
+<pre><code class="language-js">// Imports
+const FancyFramework = require('fancy-framework');
+
+// Local scope
+const localVar = 'app';
+
+function mySuperApp() {
+    return FancyFramework.makeAnApp(localVar).please();
+}
+
+
+// Exports
+module.exports = mySuperApp;</code></pre>
 </section>

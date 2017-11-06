@@ -1,22 +1,43 @@
 <section>
     <h3>CSS modules</h3>
     <ul>
-        <li>Local css by default</li>
+        <li>Local CSS by default</li>
         <li>Can switch to global</li>
         <li>Class composition</li>
     </ul>
 </section>
 <section>
-    <h3>CSS modules example</h3>
+    <h3>CSS modules and Webpack</h3>
     <ul>
-        <li>TODO example : global css theming (no class names), compose, 2 or 3 components</li>
+        <li>While Webpack is exploring the dependencies, it founds your css file</li>
+        <li>Apply css-loader to convert it to a js module</li>
+        <li>Rename all the classes using a configurable pattern</li>
+        <li>Export all the classes as a JSON object</li>
+        <li>TODO : example</li>
+        <style>
+            .root { ... }
+            .list { ... }
+            .item { ... }
+        </style>
+        Pattern: '[path][name]__[local]--[hash:base64:5]'
+        <script>
+            {
+                root : 'src-TodoList__root--3cZQE',
+                list : 'src-TodoList__list--3NnME',
+                item : 'src-TodoList__item--9xRKZ',
+            }
+        </script>
     </ul>
 </section>
 <section>
-    <h3>CSS modules in production</h3>
+    <h3>Webpack configuration</h3>
     <ul>
-        <li>Long but understandable class names in development</li>
-        <li>Minified class names in production</li>
-        <li>TODO : file weight comparison with BEM</li>
+        <li>Use css-loader</li>
+        <li>Pattern ultra configurable (see production example)</li>
+        <li>Can be used with SCSS or Less</li>
+        <li>Can be used on server side with Ruby, PHP, ... (see PostCSS modules)</li>
     </ul>
+</section>
+<section>
+    <h3>Demo</h3>
 </section>
