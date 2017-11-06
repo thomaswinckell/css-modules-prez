@@ -1,5 +1,8 @@
+/* Atoms */
+
 body {
-    background-color: #fafafa;
+    /* This is not working (no local scope with element selectors) */
+    /*composes: default-background;*/
 }
 
 h1 {
@@ -13,6 +16,9 @@ ul {
     padding: 0;
 }
 
-:global .google-maps-shit {
+
+/* Crap */
+
+:global .js-embed-shit {
     z-index: 15000;
 }

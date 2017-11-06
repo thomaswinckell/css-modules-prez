@@ -1,3 +1,16 @@
+/* Variables */
+
+.default-background {
+    background-color: #ccc;
+}
+
+.danger-background {
+    background-color: #f44336;
+}
+
+
+/* Component */
+
 .root {
     position: relative;
     margin: auto;
@@ -8,10 +21,11 @@
 }
 
 .item {
+    composes: default-background;
+
     cursor: pointer;
     position: relative;
     padding: 12px 8px 12px 40px;
-    background: #eee;
     font-size: 18px;
     transition: 0.2s;
 
@@ -23,7 +37,9 @@
 }
 
 .item:nth-child(odd) {
-    background: #f9f9f9;
+    /* This is not working (composition not allowed with a selector) */
+    /* composes: default-background; */
+    background-color: #f9f9f9;
 }
 
 .close {
@@ -34,6 +50,8 @@
 }
 
 .close:hover {
-    background-color: #f44336;
+    /* This is not working (composition not allowed with a selector) */
+    /* composes: danger-background; */
     color: white;
+    background-color: #f44336;
 }
