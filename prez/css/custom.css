@@ -5,13 +5,13 @@
 .webpack-logo {
     width: 400px;
     height: 272px;
-    border: none;
-    margin-top: 80px;
+    border: none !important;
+    margin-top: 80px !important;
 }
 
 .css-modules-logo {
-    border: none;
     width: 400px;
-    margin-left: 3rem;
     height: 400px;
+    margin-left: 3rem !important;
+    border: none !important;
 }
