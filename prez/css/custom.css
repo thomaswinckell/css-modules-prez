@@ -1,22 +1,42 @@
 .logos-container {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .webpack-logo {
     width: 400px;
     height: 272px;
     border: none !important;
-    margin-top: 80px !important;
+    box-shadow: none !important;
+    margin: 0 40px !important;
+}
+
+.css-logo {
+    width: 250px;
+    height: 272px;
+    box-shadow: none !important;
+    border: none !important;
+    margin: 0 40px !important;
 }
 
 .css-modules-logo {
     width: 400px;
     height: 400px;
-    margin-left: 3rem !important;
+    box-shadow: none !important;
     border: none !important;
+    margin: 0 40px !important;
 }
 
 .css-nightmare-gif {
+
+}
+
+.plus {
+
+}
+
+.equal {
 
 }
 
