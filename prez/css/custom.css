@@ -46,7 +46,7 @@
 }
 
 .inline {
-    display: inline-block;
+    display: inline !important;
 }
 
 .reveal section ul {
@@ -63,7 +63,8 @@
 }
 
 .reveal section strong {
-    color: #A9C6F2;
+    color: #6B93DB;
+    font-weight: normal;
 }
 
 .reveal pre.fullscreen {

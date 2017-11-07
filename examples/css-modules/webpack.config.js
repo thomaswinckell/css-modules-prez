@@ -38,7 +38,7 @@ if(isProduction) {
 } else {
     plugins.push(
         new webpack.NamedModulesPlugin(),
-        new webpack.HotModuleReplacementPlugin(),
+        new webpack.HotModuleReplacementPlugin()
     )
 }
 
