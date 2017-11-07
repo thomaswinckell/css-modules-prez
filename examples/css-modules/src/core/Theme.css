@@ -2,7 +2,7 @@
 
 body {
     /* This is not working (no local scope with element selectors) */
-    /*composes: default-background;*/
+    /*composes: default-background from './Variables.css';*/
 }
 
 h1 {

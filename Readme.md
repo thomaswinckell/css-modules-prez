@@ -6,10 +6,7 @@ Open the index.html on your favorite browser or launch an http-server on the roo
 
 
 TODO
+- ensure demo is working
 - design prez
-- bold on important keywords
+- strong on important keywords
 - review
-
-
-Maybe later :
-- server side css-modules demo

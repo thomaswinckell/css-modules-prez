@@ -17,7 +17,7 @@
 </section>
 <section>
 <ul>
-    <li>Pattern: '[path][name]__[local]--[hash:base64:5]'</li>
+    <li>Pattern: [path][name]__[local]--[hash:base64:5]</li>
     <li>File path : src/TodoList</li>
 </ul>
 <pre><code class="language-css">
@@ -29,6 +29,33 @@
     list : 'src-TodoList__list--3NnME',
     item : 'src-TodoList__item--9xRKZ',
 }</code></pre>
+</section>
+<section>
+    <h3>CSS modules</h3>
+    <ul>
+        <li>Switch to global</li>
+    </ul>
+<pre><code class="language-css">
+:global .global-class-name {
+    ...
+}
+</code></pre>
+</section>
+<section>
+    <h3>CSS modules</h3>
+    <ul>
+        <li>Composition</li>
+    </ul>
+<pre><code class="language-css">
+
+.black-color {
+    color: #333;
+}
+
+.content {
+    composes: .black-color from './variables.css';
+}
+</code></pre>
 </section>
 <section>
     <h3>Webpack configuration</h3>
